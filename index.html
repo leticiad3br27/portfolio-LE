@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="assets/images/_ba266301-752d-40f5-acc7-0f2a711c54f1.jpeg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Leticia BJ</h1>
+
+          <p class="title">DEV front</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Meus contatos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:almeida.leticia@estudante.ifro.edu.br" class="contact-link">Email</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Cell</p>
+
+              <a href="tel:+55(69)992903194" class="contact-link">+55(69)992903194</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Aniversario</p>
+
+              <time datetime="2023-11-27">Novembro 27/11</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Local</p>
+
+              <address>Vilhena RO/BR</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+  
+       
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/leticiiaa_ap?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>about</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #Sobre
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Sobre mim</h2>
+        </header>
+
+        <section class="Sobre-text">
+          <p>
+            Olá! Me chamo Letícia, sou estudante de Informática no segundo ano do IFRO e estou me especializando em
+            desenvolvimento front-end. Tenho uma paixão por transformar ideias em realidade digital e adoro explorar a
+            criatividade em tudo o que faço. Além do código, também me dedico ao desenho digital, capturando momentos
+            únicos através da fotografia e expressando minhas emoções em poesias. Sempre buscando aprender e evoluir,
+            estou pronta para mergulhar em novos desafios e criar experiências únicas através da arte e da tecnologia.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Oque eu faço?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Ícone de design" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Design</h4>
+                <p class="service-item-text">Criação de sites funcionais a nível estudantil.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Ícone de desenvolvimento web" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Sites Responsivos</h4>
+                <p class="service-item-text">Desenvolvimento de sites totalmente responsivos.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Ícone de aplicativo móvel" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Auxílio Tecnológico</h4>
+                <p class="service-item-text">Ofereço auxílio para idosos com dificuldade com tecnologia.</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="Ícone de câmera" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Fotografia</h4>
+                <p class="service-item-text">Fotos editadas e prontas para postar.</p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">Curiosidades</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/_6b0b1582-b2bb-4729-98dd-3c9837158a14.jpeg" alt="Medalha" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Medalhista</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Já fui medalhista em uma competição estadual de criação de jogos.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="assets/images/_d3cd7bee-dd07-4ba0-9f76-9edd36c0257f.jpeg" alt="Chá" width="60"
+                    data-testimonials-avatar>
+                </figure>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Amante de Chá</h4>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>Sou apaixonada por chá, principalmente os com sabores florais e frutados.</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+        
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </section>
+
+        </div>
+
+
+      
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resumo</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educação</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Federal de Educação, Ciência e Tecnologia de Rondônia </h4>
+
+              <span>2023 — Atualmente</span>
+
+              <p class="timeline-text">
+                engressei no primeiro ano.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sest senat</h4>
+
+              <span>2022 — 2022</span>
+
+              <p class="timeline-text">
+                Curso de montagem e instalação de computadores.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"> Colégio Militar Dom Pedro II Unidade 2</h4>
+
+              <span>2020— 2022</span>
+
+              <p class="timeline-text">
+                Ensino fundamental completo.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Minhas habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">front-end</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Desenho digital</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cantadas</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Reparo de computadores e desmontar coisas</h5>
+                <data value="100">100%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+       
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>Tudo</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Sites</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Desenhos</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Fotografias</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://leticiad3br27.github.io/meusite/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Captura de tela 2024-09-07 140717.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Site Amor de 4 patas</h3>
+
+                <p class="project-category">Site</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 13.58.59(2).jpeg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cyber Guardian</h3>
+
+                <p class="project-category">Desenhos</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 13.58.58.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Livres pra voar</h3>
+
+                <p class="project-category">Desenhos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 13.58.59.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"> Poseidon e Eolo</h3>
+
+                <p class="project-category">Desenhos</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 13.58.59(3).jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Psiquê</h3>
+
+                <p class="project-category">Desenhos</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 13.58.59(1).jpeg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cyber Guardian</h3>
+
+                <p class="project-category">Desenho</p>
+
+              </a>
+            </li>
+
+          
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 14.01.01.jpeg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sitio</h3>
+
+                <p class="project-category">Fotografia</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 14.01.01(3).jpeg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Nathan</h3>
+
+                <p class="project-category">Pintura</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 14.01.02.jpeg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Mar</h3>
+
+                <p class="project-category">Fotografia</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 14.01.00(2).jpeg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pergolato</h3>
+
+                <p class="project-category">Fotografia</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://br.pinterest.com/youbelike909/_created/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/WhatsApp Image 2024-09-07 at 14.01.00(1).jpeg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EU</h3>
+
+                <p class="project-category">Fotografia</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+      <!--
+        #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulario contato</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Nome completo" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email endereço" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Sua mensagem" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
