@@ -1880,3 +1880,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+footer {
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centralizar o texto */
+  padding: 10px; /* Espaçamento interno */
+  position: fixed; /* Fixar o footer na parte inferior */
+  bottom: 0; /* Alinhar ao fundo da página */
+  width: 100%; /* Largura total */
+  font-family: Arial, sans-serif; /* Fonte */
+}
